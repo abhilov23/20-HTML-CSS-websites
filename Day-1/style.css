@@ -1,13 +1,14 @@
+/*using this font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /*for creating a border-box*/
 }
 
 body{
     font-family: 'Roboto',sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*defines the arrangement of the columns*/
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -15,21 +16,21 @@ body{
     margin: 0;
 }
 .container{
-    display: flex;
-    width:90vw;
+    display: flex; /*gonna reflect the website in a row*/
+    width:90vw; /*going to take the 90 percent of the 100 percent width*/
 }
 .panel{
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     height:80vh;
-    border-radius: 50px;
+    border-radius: 50px; /*for making it curly in the corner */
     color: aliceblue;
     cursor: pointer;
     flex: 0.5;
     margin:10px;
     position: relative;
-    transition:flex 0.7s ease-in;
+    transition:flex 0.7s ease-in; /*will helps us to perform a transition on a property accoudingly*/
 }
 
 .panel h3{
